@@ -1,0 +1,27 @@
+{
+	"name": "sizemodifier",
+	"version": "1.0.0",
+	"main": "sizemodifier.js",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Mihnea240/sizemodifier.git"
+	},
+	"exports": {
+		".": {
+			"import": "./sizemodifier.js",
+			"types": "./sizemodifier.d.ts"
+		}
+	},
+	"author": "Curca Mihai Mihnea",
+	"license": "MIT",
+	"types": "./sizemodifier.d.ts",
+	"bugs": {
+		"url": "https://github.com/Mihnea240/sizemodifier/issues"
+	},
+	"homepage": "https://github.com/Mihnea240/sizemodifier#readme",
+	"description": "",
+	"dependencies": {
+		"customdrag": "github:Mihnea240/customdrag#dist"
+	}
+}
