@@ -10,11 +10,30 @@ A lightweight, vanilla JavaScript custom element that provides interactive resiz
 
 ## Installation
 
+### From GitHub (dist branch)
+```bash
+npm install github:Mihnea240/sizemodifier#dist
+```
+
+### Direct Download
+Download the files directly from the repository:
+- `sizemodifier.js` - Main component file
+- `sizemodifier.d.ts` - TypeScript declarations
+
+### CDN Usage
+```html
+<script type="module">
+  import { SizeModifier } from 'https://cdn.jsdelivr.net/gh/Mihnea240/sizemodifier@dist/sizemodifier.js';
+</script>
+```
+
 
 
 ## Basic Usage
 
 Place `<size-modifier>` elements between the elements you want to make resizable. If the parent container is a flex or grid layout, SizeModifier will automatically detect the resizing direction. Otherwise, you can specify the `direction` attribute manually.
+
+**Best Usage is in a flex container**
 
 ```html
 <div class="flex-container">
