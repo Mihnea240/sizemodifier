@@ -34,6 +34,7 @@ Download the files directly from the repository:
 Place `<size-modifier>` elements between the elements you want to make resizable. If the parent container is a flex or grid layout, SizeModifier will automatically detect the resizing direction. Otherwise, you can specify the `direction` attribute manually.
 
 **Best Usage is in a flex container**
+See [demo](https://mihnea240.github.io/sizemodifier/example)
 
 ```html
 <div class="flex-container">
